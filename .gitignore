@@ -14,4 +14,6 @@ target/
 bin/
 allure
 gradle/
+build/
+
 
