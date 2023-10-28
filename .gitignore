@@ -13,4 +13,5 @@ target/
 .project
 bin/
 allure
+gradle/
 
