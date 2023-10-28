@@ -1,14 +1,14 @@
 Примеры из [https://github.com/mkyong/junit5-examples](https://github.com/mkyong/junit5-examples)
 
-САМЫЕ различные тесты
+САМЫЕ различные тесты с allure, params, conditional, display и чего только нет.
 
-Проведение тестов с allure, params, conditional, display и чего только нет.
+Проведение тестов: 
 
 ````shell
 junit5-examples$ mvn test
 ````
 
-Просмотр отчетов
+Просмотр отчетов:
 
 ````shell
 junit5-examples$ allure serve allure-results/
