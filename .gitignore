@@ -1,0 +1,16 @@
+.gradle/
+.idea/
+allure-results/
+/log/
+.allure/
+
+*.iws
+*.iml
+*.zip
+target/
+.settings
+.classpath
+.project
+bin/
+allure
+
