@@ -8,6 +8,9 @@ repositories {
 	mavenCentral()
 }
 
+apply plugin: 'java'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 def junit_jupiter_version = '[5.8.0,)'
 

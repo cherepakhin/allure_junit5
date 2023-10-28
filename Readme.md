@@ -4,8 +4,14 @@
 
 Проведение тестов: 
 
+Maven:
 ````shell
-junit5-examples$ mvn test
+$ mvn test
+````
+
+Gradle:
+````shell
+$ ./gradlew test
 ````
 
 Просмотр отчетов:
