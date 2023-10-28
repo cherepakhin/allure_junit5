@@ -9,19 +9,19 @@
 Maven:
 
 ````shell
-$mvn test
+mvn test
 ````
 
 Gradle:
 
 ````shell
-$./gradlew test
+./gradlew test
 ````
 
 Просмотр отчетов:
 
 ````shell
-junit5-examples$ allure serve allure-results/
+allure serve allure-results/
 ````
 
 ![Результаты](doc/result.png)
@@ -31,11 +31,11 @@ junit5-examples$ allure serve allure-results/
 Перед использованием в **codespace github** установить программу allure:
 
 ````shell
-$apt install allure
+apt install allure
 ````
 
 После этого выполнить:
 
 ````shell
-$./node_modules/allure-commandline/bin/allure serve allure-results/
+./node_modules/allure-commandline/bin/allure serve allure-results/
 ````
