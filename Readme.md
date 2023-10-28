@@ -17,3 +17,14 @@ junit5-examples$ allure serve allure-results/
 
 Пример использования: [https://github.com/cherepakhin/companies](https://github.com/cherepakhin/companies). В этом же репозиториии(companies) применение для интеграционного тестирования.
 
+Перед использованием в codespace github установить программу allure:
+
+````shell
+$ apt install allure
+````
+
+После этого выполнить:
+
+````shell
+$ ./node_modules/allure-commandline/bin/allure serve allure-results/
+````
