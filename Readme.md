@@ -15,4 +15,5 @@ junit5-examples$ allure serve allure-results/
 ````
 ![Результаты](doc/result.png)
 
-Пример использования: [https://github.com/cherepakhin/companies](https://github.com/cherepakhin/companies)
+Пример использования: [https://github.com/cherepakhin/companies](https://github.com/cherepakhin/companies). В этом же репозиториии(companies) применение для интеграционного тестирования.
+
