@@ -13,3 +13,6 @@ junit5-examples$ mvn test
 ````shell
 junit5-examples$ allure serve allure-results/
 ````
+![Результаты](doc/result.png)
+
+Пример использования: [https://github.com/cherepakhin/companies](https://github.com/cherepakhin/companies)
