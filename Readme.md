@@ -18,6 +18,26 @@ Gradle:
 ./gradlew test
 ````
 
+Прогон конкретного теста:
+
+````shell
+./gradlew test --tests '*AssumptionsTest'
+./gradlew test --tests com.mkyong.AssumptionsTest
+./gradlew test --tests 'com.mkyong.assertions*'
+./gradlew test --tests '*Assumptions*'
+````
+
+Разные варианты тестирования:
+
+````shell
+gradle test --tests '*SomeTest.someSpecificFeature'
+gradle test --tests '*SomeSpecificTest'
+
+gradle test --tests '*IntegTest'
+gradle test --tests '*IntegTest*ui*'
+gradle test --tests '*IntegTest.singleMethod'
+````
+
 Просмотр отчетов:
 
 ````shell

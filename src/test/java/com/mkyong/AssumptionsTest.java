@@ -21,6 +21,8 @@ public class AssumptionsTest {
     @DisplayName("Run this if `assumeTrue` condition is true, else aborting this test (Custom Message)")
     @Test
     void testOnlyOnDevEnvElseAbortWithCustomMsg() {
+        String appMode=System.getenv("APP_MODE");
+        System.out.println(appMode);
         assumeTrue("DEV".equals(System.getenv("APP_MODE")), () -> "Aborting test: not on developer environment");
         assertEquals(2, 1 + 1);
     }
